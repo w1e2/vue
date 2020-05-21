@@ -1,0 +1,5 @@
+<template>
+    <div>
+        AAAAAAAAAAAAAAAAA<router-link to="/">返回</router-link>
+    </div>
+</template>
