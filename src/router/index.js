@@ -1,24 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import helloWorld from '../components/HelloWorld.vue'
-import A from '../components/A.vue'
-import B from '../components/B.vue'
+import Welcome from '../views/Welcome.vue'
 
 Vue.use(VueRouter)
 
   const routes = [
   {
     path: '/',
-    component: helloWorld,
+    component: Welcome,
     children: [
-      {
-        path: '/a',
-        component: A
-      },
-      {
-        path: '/b',
-        component: B
-      }
     ]
   },
   {
